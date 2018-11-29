@@ -22,7 +22,7 @@ android {
     compileSdkVersion versions.compileSdk
 
     defaultConfig {
-        applicationId names.applicationId
+        applicationId "com.cazhang.linkedin"
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode 1
