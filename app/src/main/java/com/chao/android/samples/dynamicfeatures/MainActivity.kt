@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.samples.dynamicfeatures
+package com.chao.android.samples.dynamicfeatures
 
 import android.content.Intent
 import android.net.Uri
@@ -33,6 +33,7 @@ import com.google.android.play.core.splitinstall.SplitInstallRequest
 import com.google.android.play.core.splitinstall.SplitInstallSessionState
 import com.google.android.play.core.splitinstall.SplitInstallStateUpdatedListener
 import com.google.android.play.core.splitinstall.model.SplitInstallSessionStatus
+import com.google.android.samples.dynamicfeatures.R
 
 
 private const val packageName = "com.google.android.samples.dynamicfeatures.ondemand"

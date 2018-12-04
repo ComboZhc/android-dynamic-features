@@ -14,15 +14,21 @@
  * limitations under the License.
  */
 
-package com.google.android.samples.instantdynamicfeatures
+package com.chao.android.samples.dynamicfeatures.ondemand;
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import android.os.Bundle;
+import com.chao.android.samples.dynamicfeatures.BaseSplitActivity;
+import com.google.android.samples.dynamicfeatures.ondemand.java.R;
 
-class SplitInstallInstantActivity : AppCompatActivity() {
+import androidx.annotation.Nullable;
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_split_install_instant)
+/** A simple activity displaying text written in Java. */
+public class JavaSampleActivity extends BaseSplitActivity {
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_feature_java);
     }
+
 }
